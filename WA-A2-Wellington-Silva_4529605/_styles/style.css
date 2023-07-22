@@ -3,7 +3,6 @@
     font-family: Country;
     src: url(../_fonts/CountryGold.ttf);
 }
-
 @font-face {
     font-family: Frufru;
     src: url(../_fonts/AppetizersRDemoRegular.ttf);
@@ -74,12 +73,6 @@ letter-spacing: 5px;
 .ingredients {
     text-align: center;
     font-size: larger;
-    
-}
-.ingre-right ul h4 {
-    background: linear-gradient(0.25turn, white, cadetblue, white);
-    color: gold;
-    font-size: larger;
 }
 .ingre-left {
     float: left;
@@ -88,8 +81,7 @@ letter-spacing: 5px;
 .ingre-left img {
     width: 50%;
     border-radius: 10%;
-    box-shadow: 0px 0px 5px 15px silver;
-    
+    box-shadow: 0px 0px 5px 15px silver; 
 }
 .ingre-right {
     float: inherit;
@@ -108,22 +100,20 @@ letter-spacing: 5px;
     color: gold;
     font-size: larger;
 }
-
 .proc-left ol {
     text-align: center;
     list-style-position: inside;
     line-height: 190%;
 }
-
 .proc-right img {
     box-shadow: 10px 10px 5px silver;
     border: #333 3pt solid;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
 }
-
 footer h2 {
     background: linear-gradient(0.25turn,cadetblue, white, cadetblue);
     color: gold;
