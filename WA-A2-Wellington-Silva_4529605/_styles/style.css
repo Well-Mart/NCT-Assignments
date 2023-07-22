@@ -1,0 +1,125 @@
+/* FONTS */
+@font-face {
+    font-family: Country;
+    src: url(../_fonts/CountryGold.ttf);
+}
+
+@font-face {
+    font-family: Frufru;
+    src: url(../_fonts/AppetizersRDemoRegular.ttf);
+}
+
+/* FONTS DEFINITIONS */
+* {
+    font-family: Country;
+}
+h1, h2 {
+font-family:Frufru;
+letter-spacing: 5px;
+}
+
+/* NAVIGATION BAR FORMATTING */
+.navbar
+{
+    overflow: hidden;
+    background-color:brown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+    list-style: none;
+    display: inline-block;
+    padding: auto;
+}
+.navbar a{
+    display:inline-block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.navbar-left {
+    float: left;
+}
+.navbar-right {
+    float: right;
+}
+.navbar a:hover
+{
+    color: gold;
+    background-color: cadetblue;
+    background-size: 20%;
+}
+
+/* TOP IMAGE FORMATTING */
+.top {
+    padding: 2px;
+    /* margin-top: 5%; */
+    height:fit-content;
+    text-align: center;  
+    border: 10px solid transparent;
+}  
+.top-image {  
+    max-width: 100%;  
+    box-shadow: 10px 10px 5px silver;
+}  
+#sub-image{
+    font-size: 40px;
+    bottom: 0%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+}
+
+/* INGREDIENTS */
+.ingredients {
+    text-align: center;
+    font-size: larger;
+    
+}
+.ingre-left {
+    float: left;
+    margin-right: 0;
+}
+.ingre-left img {
+    width: 50%;
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px 15px silver;
+    
+}
+.ingre-right {
+    float: inherit;
+    margin-right: 15%;
+    margin-left: 0;
+    text-align: left;
+}
+
+/* PROCEDURE */
+.procedure {
+    text-align: center;
+    font-size: larger;
+}
+.procedure h4 {
+    background: linear-gradient(0.25turn, white, cadetblue, white);
+    color: gold;
+    font-size: larger;
+}
+
+.proc-left ol {
+    text-align: center;
+    list-style-position: inside;
+    line-height: 190%;
+}
+
+.proc-right img {
+    box-shadow: 10px 10px 5px silver;
+    border: #333 3pt solid;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    background: linear-gradient(0.25turn,cadetblue, white, cadetblue);
+    color: gold;
+}
